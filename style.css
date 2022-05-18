@@ -16,7 +16,8 @@
 
 .sidebar{
     background-color: grey;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 40px;
     grid-row: 1 / 3;
     display:grid;
@@ -45,28 +46,6 @@
     font-size: 2rem;
 }
 
-.home{
-}
-
-.profile::before{
-}
-
-.messages::before{
-
-}
-
-.history::before{
-
-}
-
-.tasks::before{
-
-}
-
-.communities::before{
-
-}
-
 .settings{
     grid-row: 9;
 }
@@ -79,16 +58,37 @@
     grid-row: 11;
 }
 
-
-
 /* End sidebar */
 
-
+/* Begin header */
 
 .header{
     background-color: aqua;
 }
 
+.search-container{
+    background-color: brown;
+}
+
+.small-profile-pic img{
+    height: 48px;
+    width: 48px;
+    border: 2px solid black;
+    border-radius: 90%;
+    background: white;
+}
+
+.large-profile-pic{
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 90%;
+    background: white;
+}
+
+/* End header */
+
 .main-content{
     background-color: darkgoldenrod;
 }
+
