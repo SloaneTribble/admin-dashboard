@@ -99,6 +99,9 @@
 
 .greeting-container{
     border: 2px solid black;
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .large-profile-pic{
@@ -107,6 +110,7 @@
     border: 2px solid black;
     border-radius: 90%;
     background: white;
+    grid-row: 1 / 3;
 }
 
 .greeting{
