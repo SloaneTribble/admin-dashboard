@@ -64,10 +64,21 @@
 
 .header{
     background-color: aqua;
+    display:grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .search-container{
     background-color: brown;
+}
+
+.profile{
+    border: 2px solid black;
+}
+
+.small-profile-pic{
+    background-color: blueviolet;
 }
 
 .small-profile-pic img{
@@ -78,12 +89,32 @@
     background: white;
 }
 
+.profile-name-small{
+    background-color: chartreuse;
+}
+
+.buttons{
+    background-color: chocolate;
+}
+
+.greeting-container{
+    border: 2px solid black;
+}
+
 .large-profile-pic{
     height: 80px;
     width: 80px;
     border: 2px solid black;
     border-radius: 90%;
     background: white;
+}
+
+.greeting{
+    background-color: burlywood;
+}
+
+.profile-name-large{
+    background-color: cadetblue;
 }
 
 /* End header */
