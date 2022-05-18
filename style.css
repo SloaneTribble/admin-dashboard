@@ -22,7 +22,10 @@
     display:grid;
     grid-template-rows: repeat(11, 1fr) 2fr;
     grid-template-columns: 1fr 4fr 40px;
+    align-items: center;
+    column-gap: 5px;
 }
+
 
 .sidebar >*{
     color: white;
@@ -40,7 +43,6 @@
 
 .dashboard{
     font-size: 2rem;
-    padding-bottom: 50px;
 }
 
 .home{
@@ -65,15 +67,15 @@
 
 }
 
-.settings::before{
+.settings{
     grid-row: 9;
 }
 
-.support::before{
+.support{
     grid-row: 10;
 }
 
-.privacy::before{
+.privacy{
     grid-row: 11;
 }
 
