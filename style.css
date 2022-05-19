@@ -66,24 +66,62 @@
     background-color: aqua;
     display:grid;
     grid-template-columns: 5fr 3fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: .8fr 1fr;
 }
 
 .search-container{
     background-color: brown;
+    padding: 0px 12px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 7fr;
+    justify-content: space-around;
 }
 
-.profile{
-    border: 2px solid black;
+.search-container img,
+.search-bar{
+    height: 100%;
+    grid-row: 2;
+    background-color: antiquewhite;
 }
+
+.search-container img{
+    justify-self: right;
+}
+
+.profile-container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 2fr 5fr;
+    align-items: center;
+}
+
+.bell-icon{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.bell-icon,
+.bell-icon img{
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+    width: 80%;
+}
+
+
 
 .small-profile-pic{
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
 }
 
 .small-profile-pic img{
-    height: 48px;
-    width: 48px;
+    height: 3.5rem;
+    width: 3.5rem;
     border: 2px solid black;
     border-radius: 90%;
     background: white;
@@ -91,6 +129,7 @@
 
 .profile-name-small{
     background-color: chartreuse;
+    font-size: 1.5rem;
 }
 
 .buttons{
