@@ -62,6 +62,16 @@
 
 /* Begin header */
 
+input{
+    text-indent: 5px;
+    border: none;
+}
+
+input:active,
+input:focus{
+    border: none;
+}
+
 .header{
     background-color: aqua;
     display:grid;
