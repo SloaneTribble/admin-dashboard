@@ -239,6 +239,7 @@ input:focus{
 
 .main-content{
     background-color: darkgoldenrod;
+    max-height: 100%;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
 }
@@ -252,16 +253,16 @@ input:focus{
 }
 
 .project-title{
+    height: 22px;
     padding: 10px;
-    height: 32px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .projects{
-    gap: 10px;
-    height: calc(100% - 32px);
+    height: calc(100% - 42px);
     width: 100%;
     display:grid;
+    justify-items: center;
     grid-template-rows: repeat(3, 1fr);
     grid-auto-rows: 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -269,6 +270,13 @@ input:focus{
 
 .project{
     border: 2px solid black;
+    height: 95%;
+    width: 95%;
+    transition: transform 150ms ease-in-out;
+}
+
+.project:hover{
+    transform: scale(1.01);
 }
 
 /* End projects */
