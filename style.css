@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 6fr;
     
 }
@@ -252,7 +252,7 @@ input:focus{
     background-color: beige;
 }
 
-.project-title{
+.project-main-title{
     height: 22px;
     padding: 10px;
     font-size: 1.5rem;
@@ -270,6 +270,7 @@ input:focus{
 
 .project{
     border: 2px solid black;
+    background-color: gainsboro;
     height: 95%;
     width: 95%;
     transition: transform 150ms ease-in-out;
@@ -282,7 +283,10 @@ input:focus{
 }
 
 .project-title{
-
+    height: 22px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight:bold;
 }
 
 .project-description{
@@ -307,8 +311,31 @@ input:focus{
 
 .extras{
     background-color:crimson;
+    display:grid;
+    grid-template-rows: 2fr 1fr;
 }
 
+.announcements-container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+
+.announcements-container-inner{
+    border: 2px solid black;
+    display: grid;
+}
+
+.trending-container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.trending-container-inner{
+    border: 2px solid black;
+    display: grid;
+}
 
     /* End extras */
 
