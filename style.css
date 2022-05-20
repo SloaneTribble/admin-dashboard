@@ -317,23 +317,52 @@ input:focus{
 
 .announcements-container{
     border: 2px solid black;
+    justify-items: center;
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 1fr 9fr;
+}
+
+.announcements-title{
+    padding-top: 25px;
+    padding-left: 8px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    justify-self: left;
 }
 
 .announcements-container-inner{
     border: 2px solid black;
+    height: 90%;
+    width: 90%;
     display: grid;
+}
+
+.announcement{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.announcement div{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 0px;
 }
 
 .trending-container{
     border: 2px solid black;
     display: grid;
+    justify-items: center;
     grid-template-rows: 1fr 5fr;
+}
+
+.trending-title{
+    justify-self: left;
 }
 
 .trending-container-inner{
     border: 2px solid black;
+    height: 90%;
+    width: 90%;
     display: grid;
 }
 
