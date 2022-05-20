@@ -273,11 +273,33 @@ input:focus{
     height: 95%;
     width: 95%;
     transition: transform 150ms ease-in-out;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
 }
 
 .project:hover{
     transform: scale(1.01);
 }
+
+.project-title{
+
+}
+
+.project-description{
+    padding: 0px 10px;
+    font-size: 1.05rem;
+}
+
+.project-icons{
+    justify-self: right;
+    padding-right: 25px;
+}
+
+.project-icons:hover{
+    cursor: pointer;
+}
+
+
 
     /* End projects */
 
