@@ -322,7 +322,8 @@ input:focus{
     grid-template-rows: 1fr 9fr;
 }
 
-.announcements-title{
+.announcements-title,
+.trending-title{
     padding-top: 25px;
     padding-left: 8px;
     font-size: 1.5rem;
@@ -330,7 +331,8 @@ input:focus{
     justify-self: left;
 }
 
-.announcements-container-inner{
+.announcements-container-inner,
+.trending-container-inner{
     border: 2px solid black;
     height: 90%;
     width: 90%;
@@ -359,11 +361,18 @@ input:focus{
     justify-self: left;
 }
 
-.trending-container-inner{
-    border: 2px solid black;
-    height: 90%;
-    width: 90%;
-    display: grid;
+.trending{
+    border: 1px solid black;
+}
+
+.trending img{
+    border-radius: 90%;
+    height: 60px;
+    width: 60px;
+}
+
+#seagull{
+    background-color: turquoise;
 }
 
     /* End extras */
