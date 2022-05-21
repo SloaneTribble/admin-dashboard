@@ -312,7 +312,7 @@ input:focus{
 .extras{
     background-color:crimson;
     display:grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 2fr;
 }
 
 .announcements-container{
@@ -361,11 +361,24 @@ input:focus{
     justify-self: left;
 }
 
-.trending{
-    border: 1px solid black;
+.trend{
+    width: 90%;
+    padding: 0vw 1vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 }
 
-.trending img{
+.trend h4{
+    font-size: 1.1vw;
+}
+
+.trend p{
+    font-size: 1.vw;
+}
+
+.trend img{
     border-radius: 90%;
     height: 60px;
     width: 60px;
@@ -373,6 +386,14 @@ input:focus{
 
 #seagull{
     background-color: turquoise;
+}
+
+#frog{
+    background-color: magenta;
+}
+
+#dog{
+    background-color: orange;
 }
 
     /* End extras */
