@@ -7,9 +7,15 @@
 
 html,
 body{
+    margin: 0;
+    padding: 0;
     width: fit-content;
-    height: 80vh;
+    min-height: 100vh;
     position: relative;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
 }
 
 
@@ -17,7 +23,7 @@ body{
 
 
 .main-container{
-    height: 80vh;
+    min-height: 80vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -149,8 +155,8 @@ input:focus{
 .bell-icon{
     display: flex;
     flex: 1;
-    max-height: 50px;
-    max-width: 50px;
+    max-height: 40px;
+    max-width: 40px;
     justify-content: center;
 }
 
